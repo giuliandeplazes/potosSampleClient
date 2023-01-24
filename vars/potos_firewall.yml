@@ -1,0 +1,10 @@
+---
+potos_firewall_rules:
+  - rule: allow
+    from_ip: 8.8.8.8
+    to_port: 8888
+    protocol: udp
+  - rule: allow
+    from_ip: 8.8.4.4
+    to_port: 8844
+    protocol: tcp
